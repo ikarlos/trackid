@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const ejs = require('ejs')
 const app = express()
 const { MongoClient, ServerApiVersion } = require('mongodb');
-const uri = "mongodb+srv://mlhack:RKT5Yy5Ga6NO2N81@cluster0.gr2kc.mongodb.net/?retryWrites=true&w=majority";
+const uri = "your url"
 // const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 // client.connect(err => {
 //     const collection = client.db("test").collection("devices");
